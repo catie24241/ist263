@@ -1,5 +1,6 @@
 body {font-family: Tahoma;} 
 h1, h2 {color: rgb(139, 192, 139)}
+p {color: rgb(86, 61, 109)}
 .special {color: purple}
 .evenrow{background-color: grey;}
 h1 {font-size: 3em;}
