@@ -1,0 +1,3 @@
+h1 {color: red} /*element*/ 
+p a{color: green} /*descendant*/ 
+.myclass{color: blue} /*class*/ 

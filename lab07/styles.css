@@ -1,0 +1,10 @@
+h1 {color: #657153;}
+h2 {color: #837569;}
+p{color: #8AAA79; background-color: #ffffff;}
+a:hover {color: #8AAA79;}
+a {color:#434549;}
+nav{background-color: #B7B6C2;}
+nav a {color: #657153}
+nav a:hover {background-color: #a2cdec;}
+nav{padding: 10px;} 
+nav {margin-bottom: 30px}
