@@ -1,0 +1,31 @@
+h1 {color: #657153;}
+h2 {color: #837569;}
+p{color: #333332; }
+a:hover {color: #8AAA79;}
+a {color:#434549;}
+nav{background-color: #B7B6C2;}
+nav a {color: #657153}
+nav a:hover {background-color: #a2cdec;}
+nav{padding: 10px;} 
+nav {margin-bottom: 30px}
+.female {float: right;}
+.copy {float: left;}
+.img1{float: left; margin-right: 10px; max-width: 100%;}
+.name{flex: 1; order: 1;}
+.mail{flex: 2; order: 2;}
+.part1{display: flex; background-color: #cbe9bb; padding: 20px; border-radius: 1em; margin-bottom: 20px; margin: 10px;}
+.part2{display: flex; background-color: #bbcfe9; padding: 20px; border-radius: 1em; margin-bottom: 20px; margin: 10px;
+    flex-wrap: wrap;} 
+.google{flex: 2; order: 2;}
+.form{flex: 1; order: 1;} 
+.yourname{font-size: 10px;}
+@media only screen and (max-width: 600px){
+    nav div{display: block; padding: 10px;}
+       span {display: none;}
+}
+@media only screen and (min-width: 600px){
+    nav div{display: inline;}
+}
+h1{font-size: 60px;}
+p{font-size: 25px;
+    line-height: 50px;}
