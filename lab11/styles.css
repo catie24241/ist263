@@ -29,3 +29,10 @@ nav {margin-bottom: 30px}
 h1{font-size: 60px;}
 p{font-size: 25px;
     line-height: 50px;}
+    #skip{
+        position:absolute;  /*absolute means take it out of page flow and use a left tag to set position*/
+        left: -999px; 
+    }
+    #skip:focus{
+        left: 10px;
+        background-color: aquamarine; padding: 5px;     } 
