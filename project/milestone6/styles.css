@@ -1,18 +1,12 @@
-.work {display: flex; justify-content: space-between;}
-.img {max-width: 100%;}
-.img2 {max-width: 100%;}
-.img{width: 1000px;}
-.img2{width: 1000px;}
-.col1 {padding: 50px;}
-.col2 {padding: 50px;}
-.col1 {margin-left: 50px;}
-.col2 {margin-right: 50px;}
-.col1header {padding-bottom: 50px;}
-.col2header {padding-bottom: 50px;}
+
+.img, .img2 {width: 500px; max-width: 100%;}
+.one, .two, .three, .four, .five { display: flex;justify-content: space-evenly; flex-wrap: wrap;}
+.one div, .two div, .three div, .four div, .five div {padding: 20px;}
+.col1header, .col2header {padding-bottom: 50px;}
 h1, h2 {font-family: Montserrat; font-weight: lighter;} 
 h2{font-size: large;}
 .header{margin-left: 100px; margin-top: 30px;}
-nav {padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium;}
+nav {padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium; }
 .mywork, .aboutme, .story {margin: 10px;}
 .mywork {margin-left: 50px;}
 footer p {font-family: Montserrat; font-size: medium;}
@@ -20,4 +14,12 @@ footer{padding: 30px; display: flex; justify-content: left; font-family: Montser
 .insta, .contact {margin: 20px;}
 a:hover {color: rgb(208, 113, 113);}
 a:visited{color: black;}
-.chd {font-size: larger; font-weight:large;}
+.chd{font-size: 20px;}
+
+#skip{
+    position:absolute; 
+    left: -999px; 
+}
+#skip:focus{
+    left: 10px;
+    background-color: rgb(207, 207, 211); padding: 5px;}
