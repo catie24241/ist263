@@ -1,27 +1,42 @@
 
-.img, .img2 {width: 500px; max-width: 100%;}
+.img, .img2, .image, .img3 {width: 500px; max-width: 100%;}
 .one, .two, .three, .four, .five { display: flex;justify-content: space-evenly; flex-wrap: wrap;}
 .one div, .two div, .three div, .four div, .five div {padding: 20px;}
 .col1header, .col2header {padding-bottom: 50px;}
 h1, h2 {font-family: Montserrat; font-weight: lighter;} 
-h2{font-size: large;}
+h2{font-size: large; }
+p, h3 {font-family: Montserrat; font-weight: lighter;}
 .header{margin-left: 100px; margin-top: 30px;}
-nav {padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium; }
+nav {padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium; flex: wrap;}
 .mywork, .aboutme, .story {margin: 10px;}
 .mywork {margin-left: 50px;}
 footer p {font-family: Montserrat; font-size: medium;}
-footer{padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium;}
+footer{padding: 30px; display: flex; justify-content: left; font-family: Montserrat; font-size: medium; flex: wrap;}
 .insta, .contact {margin: 20px;}
-a:hover {color: rgb(208, 113, 113);}
-a:visited{color: black;}
+.work a:hover, nav a:hover .one a:hover, .two a:hover, .three a:hover, .four a:hover .five a:hover{color: rgb(133, 162, 117);}
+nav a:visited{color: black;}
 .chd{font-size: 20px;}
-
 #skip{
     position:absolute; 
-    left: -999px; 
-} 
-
+    left: -999px;} 
 #skip:focus{
     left: 10px;
     background-color: rgb(207, 207, 211); padding: 5px;}
-footer div {display: flex;}
+footer div {display: flex; flex: wrap;}
+.image{padding-right: 80px; padding-left: 80px; padding-top: 20px; float: left;}
+.about{padding: 50px;line-height: 50px;}
+.resume {clear: both;}
+.italic {font-style: italic; line-height: 30px;}
+.resume {display: flex; flex: wrap; flex: 1;}
+.resume div {padding: 100px; flex: wrap;}
+
+.title {line-height: 50px;}
+.block {line-height: 50px;}
+.description {line-height: 30px;}
+.topcopy {margin-right:250px; margin-left:250px; margin-top: 50px; margin-bottom: 50px;line-height: 40px;}
+iframe {margin-right: 400px; margin-left:400px; display: block;}
+.divedeeper {margin-right: 100px; margin-left: 100px;margin-bottom: 50px;}
+@media only screen and (max-width: 600px) { 
+        nav {display: block; padding: 30px; margin-left: 50px;} 
+    }
+
