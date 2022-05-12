@@ -39,4 +39,8 @@ iframe {margin-right: 400px; margin-left:400px; display: block;}
 @media only screen and (max-width: 600px) { 
         nav {display: block; padding: 30px; margin-left: 50px;} 
     }
+    @media only screen and (max-width: 600px) { 
+        .experience {flex: 1;}
+        .education {flex: 2;} 
+    }
 
