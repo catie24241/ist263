@@ -29,7 +29,6 @@ footer div {display: flex; flex: wrap;}
 .italic {font-style: italic; line-height: 30px;}
 .resume {display: flex; flex: wrap; flex: 1;}
 .resume div {padding: 100px; flex: wrap;}
-
 .title {line-height: 50px;}
 .block {line-height: 50px;}
 .description {line-height: 30px;}
@@ -44,3 +43,15 @@ iframe {margin-right: 400px; margin-left:400px; display: block;}
         .education {flex: 2;} 
     }
 
+
+@keyframes imagemove {
+    0% {opacity: 0;}
+    1% {opacity: 100;}
+}
+
+.image{
+    animation-name: imagemove;
+    animation-duration: 10s;
+    animation-delay: 5s;
+
+}
